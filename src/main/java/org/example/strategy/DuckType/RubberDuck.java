@@ -6,7 +6,7 @@ import org.example.strategy.FlyingBehaviour.NotFly;
 
 public class RubberDuck  extends Duck {
 
-RubberDuck(){
+public RubberDuck(){
     super(
             new NotFly(),
             "RubberDuck"
